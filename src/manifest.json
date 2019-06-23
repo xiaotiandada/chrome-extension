@@ -19,5 +19,14 @@
   "options_ui": {
     "page": "options/options.html",
     "chrome_style": true
-  }
+  },
+  "permissions": ["tabs", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://orange.xyz/*"],
+      "css": ["popup/popup.css"],
+      "js": ["popup/popup.js", "popup/content.js"],
+      "run_at": "document_start"
+    }
+  ]
 }
