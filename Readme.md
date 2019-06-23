@@ -13,3 +13,5 @@ npm run watch:dev
 https://developer.chrome.com/extensions
 
 https://github.com/sxei/chrome-plugin-demo
+
+https://github.com/Kocal/vue-web-extension (模版)
