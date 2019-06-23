@@ -5,7 +5,7 @@
       <span>EOS</span>
     </p>
 
-    <a class="withdraw" @click="jumppage" href="http://smartsignature.io">立即体现 ></a>
+    <a class="withdraw" @click="jumppage" href="http://smartsignature.io">立即提现 ></a>
   </div>
 </template>
 
